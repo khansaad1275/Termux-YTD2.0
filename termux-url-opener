@@ -74,7 +74,7 @@ case $choice in
 	;;
 	
 	A|a)
-	echo "Hello this is Saad!, Thanks for using this tool."
+	echo "Hello this is Saad! , Termux-YTD2.0 is a light weight tool to download any kind of Video, Music or shorts from Youtube with 2 clicks on your phone using Termux. For more information and tools you can check out my github https://github.com/khansaad1275/Termux-YTD2.0. Visit my website LEARNTERMUX.TECH for more termux releted containts"
 	;;
 	
 	*)
