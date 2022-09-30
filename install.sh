@@ -18,7 +18,7 @@ termux-setup-storage
 #echo -e "\e[033m" "Installing python\n"
 pkg install python -y
 
-echo -e "\e[034m"  "Installing youtube-dl\n"
+echo -e "\e[034m"  "Installing yt-dlp\n"
 pip install yt-dlp
 
 echo -e "\e[032m"  "Making the Youtube Directory to download the Vidoes\n"
