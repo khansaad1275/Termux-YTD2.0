@@ -11,11 +11,9 @@ echo -e "\e[035m"  "Updating default packages\n"
 apt update && apt upgrade -y
 
 echo -e "\e[032m" "Requesting acces to storage\n"
-sleep 2
 echo -e "\e[032m" "Allow Storage Permission!"
 sleep 2
 termux-setup-storage 
-sleep 5
 
 #echo -e "\e[033m" "Installing python\n"
 pkg install python -y
@@ -33,7 +31,6 @@ mkdir ~/bin
 echo -e "Creating Termux-URL-Opener Script.\n"
 
 mv termux-url-opener ~/bin/
-#Oh hey Don't forget to chmod that file there!
 
 chmod +x ~/bin/termux-url-opener
 
