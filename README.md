@@ -23,10 +23,10 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 <br>
 
 ### Installation & Usage:
-`pkg install git`
-`git clone https://github.com/khansaad1275/Termux-YTD2.0/`
-`cd Termux-YTD2.0`
-`bash install.sh`
+`pkg install git`<br>
+`git clone https://github.com/khansaad1275/Termux-YTD2.0/`<br>
+`cd Termux-YTD2.0`<br>
+`bash install.sh`<br>
 
 <br>
 <br>
