@@ -12,3 +12,30 @@ Termux-YTD2.0 is a Upgraded version of Termux-YTD, Since Youtube-dl really slow 
   <img src="https://img.shields.io/github/forks/khansaad1275/Termux-YTD2.0?color=teal&style=for-the-badge">
   <img src="https://img.shields.io/github/stars/khansaad1275/Termux-YTD2.0?style=for-the-badge">
 </p>
+
+### Me:
+Author👨‍💻: https://github.com/khansaad1275 <br>
+
+Website🌎: www.Learntermux.tech <br>
+
+Instagram : https://www.instagram.com/skhan_official/ <br>
+<br>
+<br>
+
+### Installation & Usage:
+Read This post for installation and usage, I have explained everything using screenshots.
+
+https://www.learntermux.tech/2020/04/Termux-Youtube-Video-Downloader.html
+
+<br>
+<br>
+
+### Features:
+- Download Shorts
+- See The Downloading Process.
+- Download any Video in Just 2 Clicks.
+- Select the Quality Of your Video.
+- Downlaod Mp3 Version of the Video.
+
+<br>
+<br>
