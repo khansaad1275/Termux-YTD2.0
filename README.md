@@ -42,7 +42,7 @@ bash install.sh
 ### Usage:
 [1] While Using Youtube on your phone tap on share button of any video and and select termux. <br>
 [2] Termux will open automatically and now just select the quality of the video.<br>
-- after this the video will be downloaded automatically. if you are downloading shorts then you don't have to 2nd stop, just share it and it will be downloaded in one click.
+- after this the video will be downloaded automatically. if you are downloading shorts then you don't have to do 2nd step, just share it and it will be downloaded in one click.
 
 ### Features:
 - Download Shorts
