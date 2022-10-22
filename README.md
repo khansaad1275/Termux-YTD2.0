@@ -4,7 +4,7 @@
 
 Termux-YTD2.0 is a Upgraded version of Termux-YTD, Since Youtube-dl really slow know Termux-YTD is still downloading things but really slow and Termux-YTD2.0 overcomes that problem. I have added all the previous features of Termux-YTD as well as added youtube shorts support. So now while watching shorts you can just share any shorts with termux and it will download it at a lightning speed.
 
-![image](https://user-images.githubusercontent.com/32749921/197327887-c4aca7fc-e475-4175-a289-08af6dceb340.png)
+<span align=center>![image](https://user-images.githubusercontent.com/32749921/197327887-c4aca7fc-e475-4175-a289-08af6dceb340.png)</span>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
