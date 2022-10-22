@@ -45,7 +45,7 @@ bash install.sh
 ### Usage:
 Detaild post on How to use :https://www.learntermux.tech/2022/10/Termux-YTD2.0.html
 
-Basic Idea of Usage:
+Basic Idea of Usage: <br>
 [1] While Using Youtube on your phone tap on share button of any video and and select termux. <br>
 [2] Termux will open automatically and now just select the quality of the video.<br>
 - after this the video will be downloaded automatically. if you are downloading shorts then you don't have to do 2nd step, just share it and it will be downloaded in one click.
