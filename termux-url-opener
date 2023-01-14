@@ -6,7 +6,9 @@
 
 # SETTINGS THAT YOU CAN CHANGE-----
 
+#fpath='/storage/emulated/0/Music/%(title)s.%(ext)s'
 fpath='/data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s'
+
 
 # ----------
 
@@ -16,68 +18,64 @@ if [[ "$1" == *"shorts"* ]]; then
   exit
 
 else
-	echo " "
+	printf " "
 fi
 
-
-echo -e "\e[031m" " ▄ █   ▄▀▀▀▀▀▄   █ ▄   == Termux-YTD 2.0 ="
-echo -e "\e[031m" "▄▄▀▄   █─▀─▀─█  ▄▀▄▄   With Enhanced Speed"
-echo -e "\e[031m" "     ▀▄▒▒▒▒▒▒▒▒▒▄▀    --------------------"
-echo -e "\e[031m" "     █────▀────█       Check out my Github"
-echo -e "\e[031m" "     █────▀────█       For More info...   "
-echo -e "\e[036m" "╔════════════════════════════════════════╗"                                                                          
-echo -e "\e[032m" "║ ♚ Project Name : 🆃🅴🆁🅼🆄🆇-🆈🆃🅳 2.0™        ║"
-echo -e "\e[032m" "║ ♚ Author : KhanSaad1275                ║"
-echo -e "\e[032m" "║ ♚ Github : g̲i̲t̲h̲u̲b̲.̲c̲o̲m̲/̲k̲h̲a̲n̲s̲a̲a̲d̲1̲2̲7̲5̲/̲    ║"
-echo -e "\e[032m" "║ ♚ Website : www.LearnTermux.tech       ║"
-echo -e "\e[036m" "╠════════════════════════════════════════╝"
-echo -e "\e[036m" "╠═▶ [𝗦𝗲𝗹𝗲𝗰𝘁 𝗔 𝗙𝗼𝗿𝗺𝗮𝘁]  ➳"
-echo -e "\e[032m" "╠═▶ 1. Music Mp3♫"
-echo -e "\e[032m" "╠═▶ 2. Video 360p"
-echo -e "\e[032m" "╠═▶ 3. Video 480p"
-echo -e "\e[032m" "╠═▶ 4. Video 720p"
-echo -e "\e[032m" "╠═▶ 5. Video 1080p"
-echo -e "\e[032m" "╠═▶ 6. Video 2160p"
-echo -e "\e[032m" "╠═▶ 7. Exit Termux-YTD" 
-echo -e "\e[032m" "╠═▶ A. About." 
-printf "\e[032m ╚═:➤ \e[0m "
+printf %b "\e[031m ▄ █   ▄▀▀▀▀▀▄   █ ▄   == Termux-YTD 2.0 =\n"
+printf %b "\e[031m ▄▄▀▄   █─▀─▀─█  ▄▀▄▄   With Enhanced Speed\n"
+printf %b "\e[031m      ▀▄▒▒▒▒▒▒▒▒▒▄▀    --------------------\n"
+printf %b "\e[031m      █────▀────█       Check out my Github\n"
+printf %b "\e[031m      █────▀────█       For More info...   \n"
+printf %b "\e[036m ╔════════════════════════════════════════╗\n"
+printf %b "\e[032m ║ ♚ Project Name : 🆃🅴🆁🅼🆄🆇-🆈🆃🅳 2.0™       ║\n"
+printf %b "\e[032m ║ ♚ Author : KhanSaad1275                ║\n"
+printf %b "\e[032m ║ ♚ Github : g̲i̲t̲h̲u̲b̲.̲c̲o̲m̲/̲k̲h̲a̲n̲s̲a̲a̲d̲1̲2̲7̲5̲/̲    ║\n"
+printf %b "\e[032m ║ ♚ Website : www.LearnTermux.tech       ║\n"
+printf %b "\e[036m ╠════════════════════════════════════════╝\n"
+printf %b "\e[036m ╠═▶ [𝗦𝗲𝗹𝗲𝗰𝘁 𝗔 𝗙𝗼𝗿𝗺𝗮𝘁]  ➳\n"
+printf %b "\e[032m ╠═▶ 1. Music Mp3♫\n"
+printf %b "\e[032m ╠═▶ 2. Video 360p\n"
+printf %b "\e[032m ╠═▶ 3. Video 480p\n"
+printf %b "\e[032m ╠═▶ 4. Video 720p\n"
+printf %b "\e[032m ╠═▶ 5. Video 1080p\n"
+printf %b "\e[032m ╠═▶ 6. Video 2160p\n"
+printf %b "\e[032m ╠═▶ 7. Exit Termux-YTD\n"
+printf %b "\e[032m ╠═▶ A. About.\n"
+printf %b "\e[032m ╚═:➤ \e[0m "
 read choice
 
-
-case $choice in 
+case $choice in
 	1)
 	yt-dlp -f 'bestaudio[ext=m4a]' -o $fpath $1
-
- ;;
+	exit
+	;;
 	2)
-	yt-dlp -f "best[height<=360]" -o $fpath $1 
+	yt-dlp -f "best[height<=360]" -o $fpath $1
+	exit
 	;;
-
 	3)
-	yt-dlp -f 'best[height<=480]' -o $fpath $1 
+	yt-dlp -f 'best[height<=480]' -o $fpath $1
+	exit
 	;;
-
 	4)
-	yt-dlp -f 'best[height<=720]' -o $fpath $1 
+	yt-dlp -f 'best[height<=720]' -o $fpath $1
+	exit
 	;;
-
 	5)
-	yt-dlp -f 'best[height<=1080]' -o $fpath $1 
+	yt-dlp -f 'best[height<=1080]' -o $fpath $1
+	exit
 	;;
-
 	6)
-	yt-dlp -f 'best[height<=2160]' -o $fpath $1 
+	yt-dlp -f 'best[height<=2160]' -o $fpath $1
+	exit
 	;;
-
 	7)
-	break
+	exit
 	;;
-	
 	A|a)
-	echo "Hello this is Saad! , Termux-YTD2.0 is a light weight tool to download any kind of Video, Music or shorts from Youtube with 2 clicks on your phone using Termux. For more information and tools you can check out my github https://github.com/khansaad1275/Termux-YTD2.0. Visit my website LEARNTERMUX.TECH for more termux releted containts"
+	printf "Hello this is Saad! , Termux-YTD2.0 is a light weight tool to download any kind of Video, Music or shorts from Youtube with 2 clicks on your phone using Termux. For more information and tools, you can check out my github https://github.com/khansaad1275/Termux-YTD2.0. Visit my website LEARNTERMUX.TECH for more termux related content\n"
 	;;
-	
 	*)
-	yt-dlp -f 'best[height<=2160]' -o $path $1 
+	yt-dlp -f 'best[height<=2160]' -o $path $1
+	exit
 esac
-
