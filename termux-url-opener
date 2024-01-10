@@ -46,7 +46,7 @@ read choice
 
 case $choice in 
 	1)
-	yt-dlp -f 'bestaudio[ext=m4a]' -o $fpath $1
+	yt-dlp -f 'bestaudio[ext=mp3]' -o $fpath $1
 
  ;;
 	2)
